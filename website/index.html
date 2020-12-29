@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="slider.css">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="slider nav.js"></script>
 </head>
 <body>
     <!-- dit is de navigation bar -->
@@ -27,33 +28,50 @@
     
     <!-- dit is de image slider -->
     <div class="slider">
-        <div class="slider-items">
-            <img src="slider plaatjes/afb1.png" alt="lam">
-            <div class="slider-tekst">
-                <h5>Lisser art museum</h5>
-                <p>
-                    
-                </p>
+        <div class="slides">
+            <!-- slider inhoud -->
+            <div class="slider-items first" id="slider_1">
+                <img src="slider plaatjes/afb1.jpg" alt="lam">
+                <div class="slider-tekst">
+                    <h5>Lisse Art Museum, LAM</h5>
+                    <p>
+                        Het LAM is hét foodart museum in de wereld. Gloednieuw en bomvol internationale topstukken. Het LAM is vooral ook een innovatief en persoonlijk museum dat je anders laat kijken. Voor alle leeftijden, en dan bedoelen we ook echt álle leeftijden. Met onze super persoonlijke aanpak krijg je altijd een kunstervaring op maat.                      
+                    </p>
+                </div>
             </div>
-        </div>
         
-        <div class="slider-items">
-            <img src="slider plaatjes/afb2.png" alt="tickets">
-            <div class="slider-tekst">
-                <h5>Tickets</h5>
-                <p>
+            <div class="slider-items" id="slider_2">
+                <img src="slider plaatjes/afb2.jpg" alt="tickets">
+                <div class="slider-tekst">
+                    <h5>Tickets</h5>
+                    <p>
                     
-                </p>
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <div class="slider-items">
-            <img src="slider plaatjes/afb2.jpg" alt="lam">
-            <div class="slider-tekst">
-                <h5>Lisser art museum</h5>
-                <p>
-                    Het LAM is hét foodart museum in de wereld. Gloednieuw en bomvol internationale topstukken. Het LAM is vooral ook een innovatief en persoonlijk museum dat je anders laat kijken. Voor alle leeftijden, en dan bedoelen we ook echt álle leeftijden. Met onze super persoonlijke aanpak krijg je altijd een kunstervaring op maat.  
-                </p>
+            <div class="slider-items" id="slider_3">
+                <img src="slider plaatjes/afb3.jpg" alt="lam">
+                <div class="slider-tekst">
+                    <h5>Kunst</h5>
+                    <p>
+
+                    </p>
+                </div>
+            </div>
+        
+            <!-- auto nav buttons -->
+            <div class="auto-nav">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+
+            <!-- manual nav buttons -->
+            <div class="manual-nav">
+                <span onclick="sliderchange(1)" class="manual-btn"></span>
+                <span onclick="sliderchange(2)" class="manual-btn"></span>
+                <span onclick="sliderchange(3)" class="manual-btn"></span>
             </div>
         </div>
     </div>
