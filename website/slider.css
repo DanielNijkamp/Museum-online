@@ -17,14 +17,23 @@ body {
     height: 100vh;
     position: relative;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 0;
+}
+
+.slides {
+    width: 500%;
+    height: 500px;
+    display: flex;
 }
 
 .slider-items {
     width: inherit;
     height: inherit;
     position: absolute;
-    /*opacity: 0;*/
+    opacity: 0;
 }
 
 .slider-items img {
@@ -47,8 +56,6 @@ body {
 .slider-tekst h5 {
     font-size: 5rem;
     font-family: sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
     margin-bottom: 2.5rem;
 }
 
@@ -58,4 +65,71 @@ body {
     letter-spacing: 2px;
     margin-bottom: 2.5rem;
 }
+
+@media screen and (max-width: 1000px) {
+    .slider-tekst {
+        max-width: 70%;
+        padding: 5rem 1rem;
+
+    }
+
+    .slider-tekst h5 {
+        font-size: 3rem;
+    }
+
+    .slider-tekst p {
+        font-size: 12px;
+    }
+}
+
+.slides {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slider-items {
+    transition: 1.5s;
+}
+
+
+
+.manual-btn {
+    border: 2px solid black;
+    padding: 5px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    z-index: 1;    
+}
+
+.manual-nav {
+    position: absolute;
+    bottom: 2.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+
+.slider-items img {
+    width: 100%;
+    height: 100vh;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background-color:black;
+}
+
+
+
+
 
