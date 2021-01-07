@@ -85,13 +85,13 @@ label #cancel {
     display: none;
 }
 
-@media (max-width: 1118px) {
+@media (max-width: 1700px) {
     nav img{
         left: 8%;
     }    
 }
 
-@media (max-width: 944px) {
+@media (max-width: 1400px) {
     nav img{
         left: 6%;
         top: 17px;
@@ -104,7 +104,7 @@ label #cancel {
     }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1250px) {
     label #btn {
         display: block;
     }

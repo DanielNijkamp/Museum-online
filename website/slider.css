@@ -42,6 +42,7 @@ body {
     object-fit: cover;
 }
 
+/* positie van het stuk tekst in de slider */
 .slider-tekst {
     max-width: 50%;
     position: absolute;
@@ -53,12 +54,14 @@ body {
     padding: 6rem 5rem;
 }
 
+/* styling van het groote kopje */
 .slider-tekst h5 {
     font-size: 5rem;
     font-family: sans-serif;
     margin-bottom: 2.5rem;
 }
 
+/* styling van het kleine stukje tekst */
 .slider-tekst p {
     font-size: 15px;
     font-family: sans-serif;
@@ -88,25 +91,24 @@ body {
     display: flex;
 }
 
-.slides input {
-    display: none;
-}
+
 
 .slider-items {
     transition: 1.5s;
 }
 
 
-
+/* slider buttons styling */
 .manual-btn {
-    border: 2px solid black;
-    padding: 5px 15px;
+    border: 3px solid black;
+    padding: 7px 30px;
     border-radius: 10px;
     cursor: pointer;
-    transition: 1s;
+    transition: 0.5s;
     z-index: 1;    
 }
 
+/* positie van de slider buttons */
 .manual-nav {
     position: absolute;
     bottom: 2.5%;
@@ -121,12 +123,33 @@ body {
     height: 100vh;
 }
 
+/* de ruimte tussen de slider buttons */
 .manual-btn:not(:last-child) {
-    margin-right: 40px;
+    margin-right: 100px;
 }
 
+/* zorgt ervoor dat als je met je muis over de buttons heen gaat dat de achtergrond daarvan zwart wordt */
 .manual-btn:hover {
     background-color:black;
+}
+
+.slider-items a {
+    position: relative;
+    overflow: hidden;
+    padding: 0.5rem 2rem;
+    background-color: rgb(12, 178, 184);
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 550;
+    
+}
+
+.slider-items a:hover {
+    background-color: rgb(7, 104, 107);;
+
+    
 }
 
 
