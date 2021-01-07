@@ -11,7 +11,12 @@ body {
 
 nav {
     height: 80px;
-    background: black;
+    background: rgba(0, 0, 0, 0.678);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 nav img {
@@ -64,6 +69,7 @@ nav ul li a:hover:before {
     transform-origin: left;
 }
 
+/* styling van de knopjes voor navigatie */
 label #btn, 
 label #cancel {
     color: white;
@@ -79,13 +85,13 @@ label #cancel {
     display: none;
 }
 
-@media (max-width: 1118px) {
+@media (max-width: 1700px) {
     nav img{
         left: 8%;
     }    
 }
 
-@media (max-width: 944px) {
+@media (max-width: 1400px) {
     nav img{
         left: 6%;
         top: 17px;
@@ -98,7 +104,7 @@ label #cancel {
     }
 }
 
-@media (max-width: 860px) {
+@media (max-width: 1250px) {
     label #btn {
         display: block;
     }
@@ -107,7 +113,7 @@ label #cancel {
         position: fixed;
         width: 100%;
         height: 100vh;
-        background-color: rgba(0, 0, 0, 0.788);
+        background-color: rgba(0, 0, 0, 0.678);
         top: 80px;
         left: -100%;
         text-align: center;

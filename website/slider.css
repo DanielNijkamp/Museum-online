@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: rgb(61, 60, 60);
+}
+
+.slider {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+.slides {
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+.slider-items {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    opacity: 0;
+}
+
+.slider-items img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* positie van het stuk tekst in de slider */
+.slider-tekst {
+    max-width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.774);
+    color: white;
+    padding: 6rem 5rem;
+}
+
+/* styling van het groote kopje */
+.slider-tekst h5 {
+    font-size: 5rem;
+    font-family: sans-serif;
+    margin-bottom: 2.5rem;
+}
+
+/* styling van het kleine stukje tekst */
+.slider-tekst p {
+    font-size: 15px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 2.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .slider-tekst {
+        max-width: 70%;
+        padding: 5rem 1rem;
+
+    }
+
+    .slider-tekst h5 {
+        font-size: 3rem;
+    }
+
+    .slider-tekst p {
+        font-size: 12px;
+    }
+}
+
+.slides {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+
+
+.slider-items {
+    transition: 1.5s;
+}
+
+
+/* slider buttons styling */
+.manual-btn {
+    border: 3px solid black;
+    padding: 7px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    z-index: 1;    
+}
+
+/* positie van de slider buttons */
+.manual-nav {
+    position: absolute;
+    bottom: 2.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+
+.slider-items img {
+    width: 100%;
+    height: 100vh;
+}
+
+/* de ruimte tussen de slider buttons */
+.manual-btn:not(:last-child) {
+    margin-right: 100px;
+}
+
+/* zorgt ervoor dat als je met je muis over de buttons heen gaat dat de achtergrond daarvan zwart wordt */
+.manual-btn:hover {
+    background-color:black;
+}
+
+.slider-items a {
+    position: relative;
+    overflow: hidden;
+    padding: 0.5rem 2rem;
+    background-color: rgb(12, 178, 184);
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 550;
+    
+}
+
+.slider-items a:hover {
+    background-color: rgb(7, 104, 107);;
+
+    
+}
+
+
+
+
+
