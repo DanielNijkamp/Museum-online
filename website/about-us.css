@@ -1,0 +1,34 @@
+.about-us {
+    background-color: white;
+    margin: 3rem 15px;
+    padding: 10px;
+    position: relative;
+    
+} 
+
+.alles {
+    margin: 40px;
+    display: grid;
+}
+
+.over-ons-txt {
+    grid-column: 2;
+    max-width: 50%;
+}
+.over-ons-txt h1 {
+    font-size: 5rem;
+}
+
+.over-ons-txt p {
+    font-size: 1.8rem;
+}
+
+
+
+div img {
+    grid-column: 1;
+    width: 25%;
+}
+
+
+
