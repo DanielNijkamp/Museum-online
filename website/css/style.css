@@ -144,6 +144,17 @@ label #cancel {
     }
     
 }
-
+.quiz {
+    position: relative;
+    height: 93vh;
+    width: 200vh;
+    background-color: rgb(161, 114, 78);
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
 
 
