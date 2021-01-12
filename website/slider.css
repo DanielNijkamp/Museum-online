@@ -82,6 +82,8 @@ body {
 
     .slider-tekst p {
         font-size: 12px;
+        font-weight: 600;
+        font-family: sans-serif;
     }
 }
 
