@@ -144,9 +144,9 @@ label #cancel {
     }
     
 }
-.quiz {
+.quiz_background {
     position: relative;
-    height: 93vh;
+    height: 94vh;
     width: 200vh;
     background-color: rgb(161, 114, 78);
     border-style: solid;
@@ -157,4 +157,19 @@ label #cancel {
     margin-top: 10px;
 }
 
-
+.quizstartbutton {
+    background-color: white;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    width: 100vh;
+    height: 100px;
+    bottom: 40%;
+    right: 25%;
+}
+.startbuttontext{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 18px;
+}
