@@ -9,6 +9,10 @@ body {
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 nav {
     height: 80px;
     background: rgba(0, 0, 0, 0.678);

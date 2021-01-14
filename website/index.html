@@ -2,12 +2,12 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="slider.css">
-    <link rel="stylesheet" href="about-us.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/about-us.css">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="slidernav.js"></script>
+    <script src="js/slidernav.js"></script>
 
 </head>
 <body>
@@ -21,7 +21,7 @@
         </label>
         <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">Over ons</a></li>
+            <li><a href="#over-ons">Over ons</a></li>
             <li><a href="#">Collectie</a></li>
             <li><a href="#">Quiz</a></li>
             <li><a href="#">Contact</a></li>
@@ -82,12 +82,12 @@
     </div>
 
     <!-- dit is de about us page -->
-    <div class="about-us">
+    <div id="over-ons" class="about-us">
         <!-- container van about us -->
         <div class="alles">
-            <div class="titel">
-                
+            <div class="titel"> 
             </div>
+            <!-- hoofdtekst -->
             <div class="over-ons-txt">
                 <h1 id="titel">Over ons</h1><br>
                 <p id="tekst">Het LAM komt voort uit de VandenBroek Foundation die kunst toegankelijk wil maken voor een breed publiek. De VandenBroek Foundation is opgericht door Jan van den Broek in 2008. De stichting heeft als doel om jong, cultureel talent te stimuleren. De stichting is er voor de makers én voor de jonge kijkers en luisteraars.
@@ -95,6 +95,7 @@
                     De stichting wil een inspirerende verzameling kunstwerken opbouwen. Niet alleen de kunsthistorische context is daarbij belangrijk, maar vooral ook de manier van presenteren en de beleving van de jonge kijker.
                 </p>
             </div>
+            <!-- youtube video -->
             <div class="video">
                 <iframe width="500" height="315" src="https://www.youtube.com/embed/WZAZ68u4EuA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p>source: LAM museum youtube kanaal</p>
@@ -105,6 +106,7 @@
         <!-- dit is de review gedeelte -->
         <div class="reviews">
             <!-- review container -->
+            <!-- review1 -->
             <div class="review">
                 <div class="head-review">
                    <img class="review-pf" src="https://media-cdn.tripadvisor.com/media/photo-l/1a/f6/e8/5b/default-avatar-2020-61.jpg" width="150px">
@@ -128,6 +130,7 @@
                     </div>
                 </div>
             </div>
+            <!-- review2 -->
             <div class="review">
                 <div class="head-review">
                     <img class="review-pf" src="https://media-cdn.tripadvisor.com/media/photo-l/1a/f6/ef/73/default-avatar-2020-13.jpg" width="150px">
@@ -145,6 +148,7 @@
                    <div class="desc-review">Een museum wat op een andere manier, kunst aan het publiek, laat zien. Vriendelijke ontvangst met prima uitleg over de volgen route. Leuk om met je telefoon alles te weten te komen over wat er aan kunst staat of hangt.</div>
                 </div>
              </div>
+             <!-- review3 -->
              <div class="review">
                 <div class="head-review">
                    <img class="review-pf" src="https://media-cdn.tripadvisor.com/media/photo-l/1a/f6/e3/6a/default-avatar-2020-47.jpg" width="150px">
@@ -162,9 +166,10 @@
                     Interessante kunst op een mooie manier tentoongesteld.                    
                     Vriendelijk personeel.                    
                     Fantastische ligging in mooi park met eeuwenoude indrukwekkende bomen en een openluchttentoonstelling van schitterende dahlia’s in alle soorten en maten.</div>
-                </div>
-             </div>
+                </div>             
+             </div>         
         </div>
+        <span>source: tripadvisor.com</span>
     </div>
 </body>
 </html>
