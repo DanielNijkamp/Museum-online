@@ -1,0 +1,43 @@
+.footer1{
+    margin: 0px;
+    padding: 10px;
+    font-size: 90%;
+    text-align: center;
+    
+    background-color:rgb(161, 114, 78);
+    color: white;   
+}
+  
+.footer2{ 
+    margin:10px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(2, 1, 1);     
+    font-size: 20px;
+    height: 250px;
+} 
+
+.letters{
+    font-size: 50px;
+}
+
+.wit-logo{
+    width: 150px;
+}
+
+.logo-con{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+footer h1{
+    font-size: 5.5rem;
+}
+
+footer i {
+    font-size: 100px;
+    font-weight: 500px;
+}
+
