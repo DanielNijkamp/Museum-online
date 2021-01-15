@@ -2,8 +2,7 @@
     margin: 0px;
     padding: 10px;
     font-size: 90%;
-    text-align: center;
-    
+    text-align: center;  
     background-color:rgb(161, 114, 78);
     color: white;   
 }
@@ -41,3 +40,6 @@ footer i {
     font-weight: 500px;
 }
 
+.fab {
+    color: white;
+}

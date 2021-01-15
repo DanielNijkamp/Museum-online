@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/about-us.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/quiz.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -15,7 +17,7 @@
 <body>
     <!-- dit is de navigation bar -->
     <nav>
-        <a href="index.html"><img src="Lam_logo_WT_rgb_500px.png" alt="logo"></a>
+        <a href="index.html"><img src="logo's/Lam_logo_WT_rgb_500px.png" alt="logo"></a>
         <input type="checkbox" id="check">
         <label for="check">
             <i class="fas fa-bars" id="btn"></i>
@@ -23,10 +25,10 @@
         </label>
         <ul>
             <li><a href="#">Home</a></li>
+            <li><a href="#qz">Quiz</a></li>
             <li><a href="#over-ons">Over ons</a></li>
             <li><a href="#">Collectie</a></li>
-            <li><a href="#">Quiz</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#cnt">Contact</a></li>
         </ul>
     </nav>
     
@@ -82,6 +84,20 @@
             </div>
         </div>
     </div>
+
+    <!--quiz div-->
+    <section id="qz">
+        <section class="quiz_background">
+            <a href="#">
+            <div class="quizstartbutton">
+                <div class="startbuttontext">
+            	    <h1>Welk kunstwerk ben jij?</h1>
+            	    <p>Klik hier om de quiz te beginnen!</p>
+                </div>
+            </div>
+            </a>
+        </section>
+    </section>
 
     <!-- dit is de about us page -->
     <div id="over-ons" class="about-us">
@@ -174,6 +190,19 @@
         <span>source: tripadvisor.com</span>
     </div>
 
+    <!-- dit is de contact page -->
+    <div id="cnt" class="contact">
+        <div class="contact-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20104.48793246723!2d4.539381627555532!3d52.27027835124746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5c204186e07d5%3A0xf506371f4cb856ce!2sLAM%20museum!5e0!3m2!1snl!2snl!4v1610709400638!5m2!1snl!2snl" width="1680" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <div class="contact-info">
+                <P>Tel: 0252 508 800</P><br>
+                <p>Email: info@lamlisse.nl</p><br>
+                <p>Postbus 224</p><br>
+                <p>2170 AE Sassemheim</p><br>
+            </div>
+        </div>
+    </div>
+
     <!-- dit is de footer -->
     <footer>
         <article class="footer1">
@@ -209,23 +238,32 @@
            </td>
                </tr>
            </tbody></table>
+            <h1>Volg ons</h1> 
 
-            <h1>volg ons</h1> 
+            <!-- container voor logo's -->
             <div class="logo-con">
-                
+                <!-- instagram logo -->
                 <div>
-                    <a href="https://www.instagram.com/explore/locations/723406257736884/netherlands/lisse/lam-museum/">
-                    <img src="http://sguru.org/wp-content/uploads/2018/01/instagram-logo-black-transparent.png" height="100" width="150" img-align:="" center;="">
+                    <a href="https://www.instagram.com/explore/tags/lisserartmuseum/">
+                        <i class="fab fa-instagram-square"></i>
                     </a>  
                 </div>
+
+                <!-- facebook logo -->
                 <div>
-                    <a href="https://www.lamlisse.nl/"><img class="wit-logo" src="Lam_logo_WT_wit_500px.png" alt="logo"></a>
+                    <a href="https://www.facebook.com/LAMLisse/"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
                 </div>
+
+                <!-- linkedin logo -->
                 <div>
-                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    <a href="https://www.linkedin.com/company/lam-museum?trk=vsrp_companies_res_name&trkInfo=VSRPsearchId%3A3274852191468588835719%2CVSRPtargetId%3A10255621%2CVSRPcmpt%3Aprimary"><i class="fab fa-linkedin"></i></a>
+                </div> 
+
+                <!-- lam logo -->
+                <div>
+                    <a href="https://www.lamlisse.nl/"><img class="wit-logo" src="logo's/Lam_logo_WT_wit_500px.png" alt="logo"></a>
                 </div>
             </div>
-            
            </article>
     </footer>
 </body>
