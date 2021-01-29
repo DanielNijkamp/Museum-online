@@ -1,0 +1,98 @@
+.quiz_background {
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    position: relative;
+    height: 94vh;
+    width: 195vh;
+    background-color: rgb(161, 114, 78);
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;   
+}
+/* quiz stuff */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --hue-neutral: 200;
+    --hue-wrong: 0;
+    --hue-correct: 145;
+  }
+  .container {
+    width: 800px;
+    max-width: 80%;
+    background-color: rgba(128, 128, 128, 0.445);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+  }
+  
+  .btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .btn {
+    --hue: var(--hue-neutral);
+    border-style: solid;
+    border-width: 1px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+  }
+  
+  .btn:hover {
+    border-color: rgb(255, 255, 255);
+  }
+  
+  .btn.correct {
+    --hue: var(--hue-neutral);
+    color: rgb(255, 255, 255);
+  }
+  
+ 
+  
+  .start-btn, .next-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: black;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hide {
+    display: none;
+  }
+
+ #question{
+     padding-top: 10px;
+     text-align: center;
+     font-size: 15px;
+ }
+
+ #Picture1{
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  padding:10px;
+ }
+ #Picture2{
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  padding:10px;
+ }

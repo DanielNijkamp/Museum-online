@@ -33,7 +33,7 @@ function sliderchange(index) {
     knop3.style.background = "none";
 
     // als test om te kijken of de buttons werken
-    console.log("lol");
+    console.log("Image slider doet het ;)");
     
     // zorgt ervoor dat de plaatjes veranderen wanneer je op de buttons klikt en geeft aan waar je bent in de slider 
     // display style niet klaar

@@ -1,0 +1,21 @@
+.contact {
+    background-color: white;
+    margin: 3rem 15px;
+    padding: 10px;
+}
+.maps {
+    width: 100%;
+
+}
+
+.contact-info {
+    border: 3px solid black;
+    padding: 30px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#cnttitel{
+    font-size: 2.5rem;
+    font-weight: 700 ;
+}
